@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Empowering Through AI Education",
+    "subtitle": "Making artificial intelligence accessible and understandable for everyone",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "resources": "Resources",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "features": {
+    "title": "Core Features",
+    "subtitle": "Empowering individuals with the knowledge and tools to understand and harness AI technology"
+  },
+  "tech": {
+    "title": "Technology for Everyone",
+    "subtitle": "Our platform provides comprehensive resources and tools to make AI accessible and understandable"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "In a world of rapid technological advancement, we are more than just an organization - we are a movement. We support people not only in understanding technology but in actively and ethically shaping it for a better future."
+  }
+}

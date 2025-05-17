@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Bildung durch KI fördern",
+    "subtitle": "Künstliche Intelligenz für alle zugänglich und verständlich machen",
+    "cta": {
+      "primary": "Loslegen",
+      "secondary": "Mehr erfahren"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "resources": "Ressourcen",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "features": {
+    "title": "Kernfunktionen",
+    "subtitle": "Menschen mit Wissen und Werkzeugen ausstatten, um KI-Technologie zu verstehen und zu nutzen"
+  },
+  "tech": {
+    "title": "Technologie für alle",
+    "subtitle": "Unsere Plattform bietet umfassende Ressourcen und Werkzeuge, um KI zugänglich und verständlich zu machen"
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "content": "In einer Welt des rasanten technologischen Fortschritts sind wir mehr als nur eine Organisation - wir sind eine Bewegung. Wir unterstützen Menschen nicht nur beim Verständnis von Technologie, sondern auch bei der aktiven und ethischen Gestaltung für eine bessere Zukunft."
+  }
+}

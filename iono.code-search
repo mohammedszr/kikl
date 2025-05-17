@@ -1,0 +1,35 @@
+# Query: iono
+# ContextLines: 1
+
+10 results - 2 files
+
+deploy.sh:
+   9  rm -rf .next/cache
+  10: tar -czf deploy.tar.gz .next package.json package-lock.json public .ionos.yaml
+  11  
+  12  echo "Deployment package created: deploy.tar.gz"
+  13: echo "Upload this file to your IONOS deployment panel"
+
+src/content/pages/about.md:
+  51  **
+  52: deployment instructions for IONOS:**
+  53  
+
+  61  ./deploy.sh
+  62: IONOS Deployment Steps
+  63: Log in to your IONOS Control Panel
+  64  Go to the Hosting section
+
+  67  Configure your domain settings:
+  68: Point your domain to the IONOS nameservers
+  69: Set up SSL certificate (available through IONOS)
+  70: Environment Variables Set these in your IONOS Control Panel:
+  71  NODE_ENV=production
+
+  75  CopyInsert
+  76: A     @     [IONOS IP]
+  77  CNAME www   @
+
+  86  Run ./deploy.sh
+  87: Upload the new deploy.tar.gz to IONOS
+  88  Important Notes:

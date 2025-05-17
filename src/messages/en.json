@@ -1,0 +1,92 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Empowering Communities Through Technology",
+    "subtitle": "Shaping the future of AI education for everyone",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "At KI-KL e.V., we empower individuals to navigate the transformative landscape of emerging technologies, equipping them with the knowledge and skills to adapt and thrive in a changing job market. By providing accessible education, resources, and a collaborative community, we break down barriers for those from diverse backgrounds, ensuring that technology serves the public good."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "Empowering our community through accessible tools, innovative AI models, and hands-on workshops, we foster a collaborative environment where diverse skills flourish. By prioritizing citizen science and experiential learning, we bridge gaps, combat isolation, and inspire collective growth."
+  },
+  "features": {
+    "title": "What We Offer",
+    "subtitle": "Empowering individuals with knowledge and tools",
+    "items": {
+      "workshops": {
+        "title": "Hands-on Workshops",
+        "description": "Interactive learning experiences for all skill levels"
+      },
+      "resources": {
+        "title": "Free Resources",
+        "description": "Open-source tools and educational materials"
+      },
+      "community": {
+        "title": "Community Projects",
+        "description": "Collaborative initiatives for social impact"
+      }
+    }
+  },
+  "values": {
+    "title": "Our Core Values",
+    "items": {
+      "transparency": {
+        "title": "Transparency",
+        "description": "Developing ethical, transparent AI models for social good"
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Making technology education available to everyone"
+      },
+      "community": {
+        "title": "Community-Driven",
+        "description": "Building a supportive network for collective growth"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "history": {
+      "title": "Our History",
+      "description": "Founded with a vision to democratize AI education and empower communities"
+    },
+    "ethics": {
+      "title": "Ethical Technology",
+      "description": "Committed to transparent, ethical AI development that serves the public good"
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Diverse experts dedicated to technology education and community empowerment"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions or want to get involved? We'd love to hear from you!",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "subjects": {
+      "general": "General Inquiry",
+      "workshops": "Workshop Information",
+      "volunteer": "Volunteer Opportunities",
+      "other": "Other"
+    },
+    "message": "Your Message",
+    "submit": "Send Message",
+    "other-ways": "Other Ways to Connect",
+    "email-us": "Email Us",
+    "follow-us": "Follow Us"
+  }
+}

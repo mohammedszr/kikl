@@ -1,0 +1,92 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienste",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Gemeinsam Technologie Gestalten",
+    "subtitle": "Die Zukunft der KI-Bildung für alle",
+    "cta": {
+      "primary": "Loslegen",
+      "secondary": "Mehr erfahren"
+    }
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "description": "Bei KI-KL e.V. befähigen wir Menschen, sich in der transformativen Landschaft neuer Technologien zurechtzufinden. Wir vermitteln Wissen und Fähigkeiten, die es ihnen ermöglichen, sich in einem sich wandelnden Arbeitsmarkt anzupassen und zu entwickeln. Durch zugängliche Bildung, Ressourcen und eine kollaborative Gemeinschaft bauen wir Barrieren ab und stellen sicher, dass Technologie dem Gemeinwohl dient."
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "description": "Durch zugängliche Werkzeuge, innovative KI-Modelle und praktische Workshops stärken wir unsere Gemeinschaft und schaffen ein kollaboratives Umfeld, in dem vielfältige Fähigkeiten gedeihen. Mit Fokus auf Bürgerwissenschaft und erfahrungsbasiertes Lernen überbrücken wir Lücken, bekämpfen Isolation und inspirieren gemeinsames Wachstum."
+  },
+  "features": {
+    "title": "Unser Angebot",
+    "subtitle": "Menschen mit Wissen und Werkzeugen stärken",
+    "items": {
+      "workshops": {
+        "title": "Praktische Workshops",
+        "description": "Interaktive Lernerfahrungen für alle Niveaus"
+      },
+      "resources": {
+        "title": "Freie Ressourcen",
+        "description": "Open-Source-Tools und Bildungsmaterialien"
+      },
+      "community": {
+        "title": "Gemeinschaftsprojekte",
+        "description": "Kollaborative Initiativen für gesellschaftliche Wirkung"
+      }
+    }
+  },
+  "values": {
+    "title": "Unsere Kernwerte",
+    "items": {
+      "transparency": {
+        "title": "Transparenz",
+        "description": "Entwicklung ethischer, transparenter KI-Modelle für das Gemeinwohl"
+      },
+      "accessibility": {
+        "title": "Zugänglichkeit",
+        "description": "Technologiebildung für alle verfügbar machen"
+      },
+      "community": {
+        "title": "Gemeinschaftsorientiert",
+        "description": "Aufbau eines unterstützenden Netzwerks für kollektives Wachstum"
+      }
+    }
+  },
+  "about": {
+    "title": "Über Uns",
+    "history": {
+      "title": "Unsere Geschichte",
+      "description": "Gegründet mit der Vision, KI-Bildung zu demokratisieren und Gemeinschaften zu stärken"
+    },
+    "ethics": {
+      "title": "Ethische Technologie",
+      "description": "Verpflichtet zu transparenter, ethischer KI-Entwicklung im Dienste des Gemeinwohls"
+    },
+    "team": {
+      "title": "Unser Team",
+      "description": "Vielfältige Experten, die sich der Technologiebildung und Gemeinschaftsstärkung widmen"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Haben Sie Fragen oder möchten Sie sich engagieren? Wir freuen uns von Ihnen zu hören!",
+    "name": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "subject": "Betreff",
+    "subjects": {
+      "general": "Allgemeine Anfrage",
+      "workshops": "Workshop-Informationen",
+      "volunteer": "Freiwilligenarbeit",
+      "other": "Sonstiges"
+    },
+    "message": "Ihre Nachricht",
+    "submit": "Nachricht senden",
+    "other-ways": "Weitere Kontaktmöglichkeiten",
+    "email-us": "E-Mail",
+    "follow-us": "Folgen Sie uns"
+  }
+}

@@ -2,20 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 150 50% 98%;
+    --foreground: 150 10% 10%;
+    
+    --card: 150 50% 98%;
+    --card-foreground: 150 10% 10%;
+ 
+    --popover: 150 50% 98%;
+    --popover-foreground: 150 10% 10%;
+ 
+    --primary: 142 76% 36%;
+    --primary-foreground: 150 10% 98%;
+ 
+    --secondary: 150 20% 94%;
+    --secondary-foreground: 150 10% 10%;
+ 
+    --muted: 150 20% 94%;
+    --muted-foreground: 150 10% 45%;
+ 
+    --accent: 150 20% 94%;
+    --accent-foreground: 150 10% 10%;
+ 
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 150 10% 98%;
+
+    --border: 150 20% 90%;
+    --input: 150 20% 90%;
+    --ring: 142 76% 36%;
+ 
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 150 10% 10%;
+    --foreground: 150 50% 98%;
+    
+    --card: 150 10% 12%;
+    --card-foreground: 150 50% 98%;
+ 
+    --popover: 150 10% 12%;
+    --popover-foreground: 150 50% 98%;
+ 
+    --primary: 142 76% 36%;
+    --primary-foreground: 150 50% 98%;
+ 
+    --secondary: 150 20% 16%;
+    --secondary-foreground: 150 50% 98%;
+ 
+    --muted: 150 20% 16%;
+    --muted-foreground: 150 50% 60%;
+ 
+    --accent: 150 20% 16%;
+    --accent-foreground: 150 50% 98%;
+ 
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 150 50% 98%;
+ 
+    --border: 150 20% 16%;
+    --input: 150 20% 16%;
+    --ring: 142 76% 36%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/30 dark:bg-gray-800/30 backdrop-blur-md border border-white/20 dark:border-gray-700/30 rounded-xl shadow-xl;
+  }
+  
+  .nav-link {
+    @apply text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors;
+  }
+  
+  .btn-primary {
+    @apply bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-md transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold py-2 px-4 rounded-md transition-colors;
+  }
 }

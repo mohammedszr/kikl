@@ -1,0 +1,11 @@
+distFolder: .next
+routes:
+  - path: /*
+    destination: index.html
+environment:
+  - key: NODE_ENV
+    value: production
+  - key: NEXT_PUBLIC_BASE_URL
+    value: https://ki-kl.de
+buildCommand: npm run build
+startCommand: npm start
